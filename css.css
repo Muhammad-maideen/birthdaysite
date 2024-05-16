@@ -1,0 +1,88 @@
+body{
+
+    font-family: "Happy Monkey", system-ui;
+    text-align: center;
+    /* background-color: #a2d2ff; */
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    color: white;
+    
+}
+#text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#myimg{
+    width: 150px;
+    border-radius: 70%;
+    border: 6px solid rgb(255, 188, 199);
+}
+
+h1,h2,h3,h4,p{
+    text-shadow: 0px 0px 2px black;
+}
+
+h4{
+    background-color: rgb(255, 188, 199);
+}
+#age,#dob{
+    background-color:rgb(255, 188, 199) ;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+#dob{
+    /* background-color:rgb(255, 188, 199) ;
+    padding: 5px 10px;
+    border-radius: 2px; */
+    margin: 0px;
+}
+.gift{
+    margin-top: 50px;
+}
+
+.gifttitle{
+margin-bottom: 10px;
+}
+
+.gifthint{
+margin-top: 0;
+}
+
+.gift-img{
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    border: 5px solid white;
+    background-image: url(gift-cover.jpg);
+    background-size: cover;
+    margin: 0 auto;
+    
+}
+
+#happy:hover{
+
+    background-image: url(happy.gif);
+    
+    
+}
+#hot:hover{
+
+    background-image: url(hot.gif);
+}
+
+#joy:hover{
+
+    background-image: url(genius.gif);
+
+}
+
+#cheers:hover{
+
+    background-image: url(cheers.gif);
+}
+
+
